@@ -1,14 +1,13 @@
-var hello = "Hello world"
+var hello = 'Hello world';
 
-console.log(hello)
+hello;
 
-
-var list = ['car', 'apple', 'mobile']
-
+var list = ['car', 'apple', 'mobile'];
 list.forEach(data => {
-    console.log(data)
+    data;
 });
 
+var a = 1;
+a += 2;
 
-const a = 1
-// a += 2 I can't change const
+list.push(a);
