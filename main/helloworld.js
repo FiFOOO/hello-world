@@ -11,3 +11,9 @@ var a = 1;
 a += 2;
 
 list.push(a);
+
+const foo = (a, b) => {
+    return a + b;
+};
+
+console.log(foo(2, 2));
