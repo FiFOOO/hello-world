@@ -1,13 +1,13 @@
-var hello = 'Hello world';
+let hello = 'Hello world';
 
-hello;
+console.log(hello);
 
-var list = ['car', 'apple', 'mobile'];
+let list = ['car', 'apple', 'mobile'];
 list.forEach(data => {
-    data;
+    console.log(data);
 });
 
-var a = 1;
+let a = 1;
 a += 2;
 
 list.push(a);
