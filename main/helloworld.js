@@ -1,11 +1,11 @@
 let hello = 'Hello world';
 
-hello;
+console.log(hello);
 
 let list = ['car', 'apple', 'mobile'];
 
 list.forEach(data => {
-    data;
+    console.log(data);
 });
 
 let a = 1;
