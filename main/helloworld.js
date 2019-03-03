@@ -23,5 +23,6 @@ let person = {
         return this.name;
     }
 };
+console.log(person.getName());
 
 console.log(`ahoj ja som ${person.name} a moj vypocet je 2 + 2 = ${foo(2, 2)}`);
